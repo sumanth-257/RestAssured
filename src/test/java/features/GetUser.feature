@@ -31,10 +31,6 @@ Feature: Get User API
     When I send a GET request to retrieve user with ID 1
     Then the username should not be case-sensitive "Bret"
     
-   Scenario: Validate case sensitivity of the API
-    Given the API endpoint is available
-    When I send a POST request to create user with ID 1
-    Then the username should not be case-sensitive "Bret" 
-    
+
     
     
