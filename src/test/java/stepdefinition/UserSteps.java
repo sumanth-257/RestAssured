@@ -27,6 +27,14 @@ public class UserSteps {
         response = given().when().get("/users/" + id);
     }
 
+ /*   @When("I send a POST request to create user with ID {string}")
+    public void i_send_a_post_request_to_create_user_with_id(String id) {
+        response = given().when().get("/users/" + id);
+    }
+    *
+    
+    
+    
     /**
      * Verifies the response status code.
      * @param statusCode the expected status code
