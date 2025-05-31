@@ -127,6 +127,8 @@ public void the_username_should_not_be_case_sensitive() {
     assertEquals(actualUsername.equalsIgnoreCase("Bret"), true);
 }
 
+    public void testGit(){
+    }
 
     
     
